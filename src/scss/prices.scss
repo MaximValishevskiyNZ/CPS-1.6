@@ -29,6 +29,12 @@
   }
 }
 
+.prices__swiper .swiper-pagination{
+  @media (min-width: $tabletWidth) {
+    display: none;
+  }
+}
+
 .prices__wrapper {
   @media (min-width: $tabletWidth) {
     display: flex;

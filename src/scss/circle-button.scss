@@ -1,0 +1,46 @@
+.circle-button {
+  background-color: hsl(342, 100%, 62%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border:none;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: 0.2s;
+}
+
+.circle-button:hover {
+  opacity: 60%;
+}
+
+.circle-button--bg-img--menu {
+  background-image: url("../img/header_menu_icon.svg");
+}
+
+.circle-button--bg-img--phone {
+  background-image: url("../img/phone_icon.png");
+}
+
+.circle-button--bg-img--message {
+  background-image: url("../img/message_icon.png");
+}
+
+.circle-button--bg-img--person {
+  background-image: url("../img/person_icon.png");
+}
+
+.circle-button--bg-img--tools {
+  background-image: url("../img/tools_icon.svg");
+}
+
+.circle-button--bg-img--glass {
+  background-image: url("../img/glass_icon.svg");
+}
+
+.circle-button--bg-img--nav-glass {
+  background-image: url("../img/navigation_glass.png");
+}
+
+.circle-button--bg-img--cross {
+  background-image: url("../img/cross.png");
+}

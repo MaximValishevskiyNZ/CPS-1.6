@@ -3,7 +3,6 @@
 .article {
   display: flex;
   flex-direction: column;
-  gap: 16px;
   padding-bottom: 24px;
 }
 
@@ -11,13 +10,14 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 0 16px 16px;
+  @media (max-width: $tabletWidth) {
+    padding: 0 16px 16px;
+  }
 }
 
 .article__text {
   display: flex;
   flex-direction: column;
-  font-family: "TT Lakes Regular";
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 0.2px;

@@ -1,13 +1,10 @@
 @import "window-width";
 @import "font";
 
-.modal--feedback {
 
-}
-
-.modal--feedback__title {
+.feedback__title {
   padding: 40px 16px 24px;
-  font-family: TT Lakes Bold;
+  font-weight: bold;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: -0.6000000238418579px;
@@ -18,7 +15,7 @@
 
 }
 
-.modal--feedback__title:before {
+.feedback__title:before {
   content: "";
   position: absolute;
   display: flex;
@@ -42,7 +39,7 @@
 .feedback__input-text {
   height: 48px;
   border: 1px solid rgba(234, 234, 234, 1);
-  font-family: "TT Lakes Regular";
+  font-family: inherit;
   font-size: 16px;
   line-height: 24px;
   border-radius: 6px;
@@ -57,7 +54,7 @@
   min-height: 118px;
   resize: none;
   border: 1px solid rgba(234, 234, 234, 1);
-  font-family: "TT Lakes Regular";
+  font-family: inherit;
   font-size: 16px;
   line-height: 24px;
   border-radius: 6px;
@@ -97,7 +94,7 @@
   flex-wrap: wrap;
   font-size: 12px;
   margin-left: auto;
-  font-family: "TT Lakes Bold";
+  font-weight: bold;
   line-height: 24px;
   letter-spacing: -0.15000000596046448px;
   color: white;

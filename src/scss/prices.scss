@@ -152,7 +152,7 @@
   text-transform: uppercase;
   flex-wrap: wrap;
   font-size: 12px;
-  font-family: "TT Lakes Bold";
+  font-weight: bold;
   line-height: 24px;
   letter-spacing: -0.15000000596046448px;
   color: white;
@@ -182,7 +182,7 @@
 
 .prices_bottom-link {
   padding: 0 24px 40px 16px;
-  font-family: "TT Lakes Medium";
+  font-weight: 500;
   max-width: max-content;
   transition: 0.2s;
   @media (min-width: $tabletWidth) {

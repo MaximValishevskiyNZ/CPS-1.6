@@ -18,7 +18,7 @@
   }
 }
 
-.navigation.active {
+.navigation--active {
   left: 0 !important;
   box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
   @media (max-width: $tabletWidth) {
@@ -73,7 +73,7 @@
 .navigation__link {
 
   position: relative;
-  font-family: "TT Lakes Medium";
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
@@ -116,14 +116,14 @@
 }
 
 .info__mail {
-  font-family: "TT Lakes Medium";
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
 }
 
 .info__phone {
-  font-family: "TT Lakes Bold";
+  font-weight: bold;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: -0.6px;
@@ -139,7 +139,7 @@
   display: flex;
   gap: 7px;
   padding-top: 40px;
-  font-family: "TT Lakes Medium";
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;

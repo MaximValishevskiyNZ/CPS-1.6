@@ -3,10 +3,11 @@
   padding:0;
   border:none;
   box-sizing:border-box;
+  overflow: visible;
 }
 
 body {
-  font-family: 'TT Lakes Regular';
+  font-family: 'TT Lakes';
   background-color: rgba(248, 248, 248, 1);
   overflow-x: hidden;
 }
@@ -34,6 +35,7 @@ a:focus, a:active {
 .wrapper {
   max-width: 1426px;
   margin: 0 auto;
+
   @media (min-width: $desktopWidth) {
     display: flex;
     justify-content: space-between;

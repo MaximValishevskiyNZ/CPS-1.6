@@ -3,42 +3,49 @@
 
 .services {
   padding: 24px 0 24px 16px ;
+  @media (max-width: $tabletWidth) {
+    padding: 24px 0 24px 0 ;
+  }
 }
 
 .services__title {
-  font-family: "TT Lakes Bold";
+  position: relative;
+  font-weight: bold;
   font-size: 28px;
   line-height: 40px;
+  @media (max-width: $tabletWidth) {
+    padding-left: 20px;
+  }
 }
 
 .services__title::before {
   content: "";
   position: absolute;
-  display: flex;
   height: 40px;
   width: 4px;
   left: 0;
   background-color: #41F6D7;
   border-radius: 0px 10px 10px 0px;
-  @media (min-width: $desktopWidth) {
-    left: 320px;
+  @media (min-width: $tabletWidth) {
+    left: -24px;
   }
-}
-
-.wrapper.blur .services__title::before {
-  left: 0;
+  @media (min-width: $desktopWidth) {
+    left: -32px;
+  }
 }
 
 .services__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 24px;
   @media (min-width: $tabletWidth) {
     margin-bottom: 32px;
   }
   @media (min-width: $desktopWidth) {
     margin-bottom: 8px;
   }
+
 }
 
 .services__btn-list {
@@ -126,7 +133,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
   }
 
   .services {

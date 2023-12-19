@@ -12,28 +12,28 @@
 <div class="wrapper">
   <header class="header">
     <div class="header__left-part">
-      <button class="circle-button circle-button--bg-img--menu"></button>
+      <button class="circle-button circle-button--menu"></button>
       <a class="header__logo">
         <img class="header__logo-image" alt="SPC логотип" src="img/logo.svg">
       </a>
       <div class="header__separator"></div>
     </div>
     <div class="header__right-part">
-      <button class="circle-button circle-button--bg-img--phone"></button>
-      <button class="circle-button circle-button--bg-img--message"></button>
-      <button class="circle-button circle-button--bg-img--person"></button>
+      <button class="circle-button circle-button--phone"></button>
+      <button class="circle-button circle-button--message"></button>
+      <button class="circle-button circle-button--person"></button>
       <div class="header__separator"></div>
-      <button class="circle-button circle-button--bg-img--tools"></button>
-      <button class="circle-button circle-button--bg-img--glass"></button>
+      <button class="circle-button circle-button--tools"></button>
+      <button class="circle-button circle-button--glass"></button>
     </div>
   </header>
   <aside class="navigation aside">
     <div class="navigation__header">
-      <button class="circle-button circle-button--bg-img--cross"></button>
+      <button class="circle-button circle-button--cross"></button>
       <a class="navigation__logo-link">
-        <img class="navigation__logo-image" src="img/logo.svg">
+        <img class="navigation__logo-image" alt="SPC логотип" src="img/logo.svg">
       </a>
-      <button class="circle-button circle-button--bg-img--nav-glass"></button>
+      <button class="circle-button circle-button--nav-glass"></button>
     </div>
     <div class="navigation__body">
       <nav class="navigation__links">
@@ -49,13 +49,13 @@
     </div>
     <div class="navigation__footer">
       <div class="navigation__footer-btns">
-        <button class="circle-button circle-button--bg-img--phone navigation__phone-button"></button>
-        <button class="circle-button circle-button--bg-img--message navigation__message-button"></button>
-        <button class="circle-button circle-button--bg-img--person"></button>
+        <button class="circle-button circle-button--phone navigation__phone-button"></button>
+        <button class="circle-button circle-button--message navigation__message-button"></button>
+        <button class="circle-button circle-button--person"></button>
       </div>
       <div class="navigation__info">
         <a href="mailto:mail@cps.com" class="info__mail">mail@cps.com</a>
-        <a href="tel: 8 800 890 8900" class="info__phone">8 800 890 8900</a>
+        <a href="tel:+88008908900" class="info__phone">8 800 890 8900</a>
       </div>
       <div class="navigation__footer-langs">
         <a class="lang--active">RU</a>
@@ -64,25 +64,25 @@
       </div>
     </div>
   </aside>
-  <aside class="modal modal--feedback modal--feedback--message aside">
-    <button class="circle-button circle-button--bg-img--cross"></button>
-    <h2 class="modal--feedback__title">Обратная связь</h2>
+  <aside class="modal modal--feedback--message aside">
+    <button class="circle-button circle-button--cross"></button>
+    <h2 class="feedback__title">Обратная связь</h2>
     <form action="" class="feedback__form">
-      <input type="text" class="feedback__input-text" placeholder="Имя">
-      <input type="text" class="feedback__input-text" placeholder="Телефон">
-      <input type="text" class="feedback__input-text" placeholder="Электронная почта">
-      <textarea name="" id="" class="feedback__input-textarea" placeholder="Сообщение"></textarea>
+      <input type="text" class="feedback__input-text" placeholder="Имя" required>
+      <input type="text" class="feedback__input-text" placeholder="Телефон" required>
+      <input type="email" class="feedback__input-text" placeholder="Электронная почта">
+      <textarea name="" id="" class="feedback__input-textarea" placeholder="Сообщение" required></textarea>
       <p class="feedback__description">
         Нажимая “отправить”, вы даете согласие на <a>обработку персональных данных</a> и соглашаетесь с нашей <a>политикой конфиденциальности</a>
       </p>
       <button type="submit" class="feedback__submit-button">Отправить</button>
     </form>
   </aside>
-  <aside class="modal modal--feedback modal--feedback--phone aside">
-    <button class="circle-button circle-button--bg-img--cross"></button>
-    <h2 class="modal--feedback__title">Заказать звонок</h2>
+  <aside class="modal modal--feedback--phone aside">
+    <button class="circle-button circle-button--cross"></button>
+    <h2 class="feedback__title">Заказать звонок</h2>
     <form action="" class="feedback__form">
-      <input type="text" class="feedback__input-text" placeholder="Телефон">
+      <input type="text" class="feedback__input-text" placeholder="Телефон" required>
       <p class="feedback__description">
         Нажимая “отправить”, вы даете согласие на <a>обработку персональных данных</a> и соглашаетесь с нашей <a>политикой конфиденциальности</a>
       </p>
@@ -157,39 +157,39 @@
         <div class="swiper-wrapper brands__wrapper">
           <a class="swiper-slide brands__item">
             <img class="brands__logo" src="img/lenovo.svg" alt="Lenovo">
-            <div class="brands__circle-button" title="Пока не работает" href=""></div>
+            <div class="brands__circle-button"></div>
           </a>
           <a class="swiper-slide brands__item">
             <img class="brands__logo" src="img/samsung.svg" alt="Samsung">
-            <div class="brands__circle-button" title="Пока не работает" href=""></div>
+            <div class="brands__circle-button"></div>
           </a>
           <a class="swiper-slide brands__item">
             <img class="brands__logo" src="img/apple.svg" alt="Apple">
-            <div class="brands__circle-button" title="Пока не работает" href=""></div>
+            <div class="brands__circle-button"></div>
           </a>
           <a class="swiper-slide brands__item">
             <img class="brands__logo" src="img/viewsonic.svg" alt="ViewSonic">
-            <div class="brands__circle-button" title="Пока не работает" href=""></div>
+            <div class="brands__circle-button"></div>
           </a>
           <a class="swiper-slide brands__item">
             <img class="brands__logo" src="img/bosch.svg" alt="Bosch">
-            <div class="brands__circle-button" title="Пока не работает" href=""></div>
+            <div class="brands__circle-button"></div>
           </a>
           <a class="swiper-slide brands__item">
             <img class="brands__logo" src="img/hp.svg" alt="HP">
-            <div class="brands__circle-button" title="Пока не работает" href=""></div>
+            <div class="brands__circle-button"></div>
           </a>
           <a class="swiper-slide brands__item">
             <img class="brands__logo" src="img/acer.svg" alt="Acer">
-            <div class="brands__circle-button" title="Пока не работает" href=""></div>
+            <div class="brands__circle-button"></div>
           </a>
           <a class="swiper-slide brands__item">
             <img class="brands__logo" src="img/sony.svg" alt="Sony">
-            <div class="brands__circle-button" title="Пока не работает" href=""></div>
+            <div class="brands__circle-button"></div>
           </a>
           <a class="swiper-slide brands__item">
             <img class="brands__logo" src="img/lenovo.svg" alt="Lenovo">
-            <div class="brands__circle-button" title="Пока не работает" href=""></div>
+            <div class="brands__circle-button"></div>
           </a>
         </div>
         <div class="swiper-pagination"></div>
